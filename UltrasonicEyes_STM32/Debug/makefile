@@ -34,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := ProyectoTallerV
+BUILD_ARTIFACT_NAME := UltrasonicEyes_STM32
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-ProyectoTallerV.elf \
+UltrasonicEyes_STM32.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-ProyectoTallerV.list \
+UltrasonicEyes_STM32.list \
 
 OBJCOPY_BIN += \
-ProyectoTallerV.bin \
+UltrasonicEyes_STM32.bin \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: ProyectoTallerV.elf secondary-outputs
+main-build: UltrasonicEyes_STM32.elf secondary-outputs
 
 # Tool invocations
-ProyectoTallerV.elf: $(OBJS) $(USER_OBJS) /home/rafaelach/Documents/GitHub/Proyectos_TallerV_rcasalins/ProyectoTallerV/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ProyectoTallerV.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/rafaelach/Documents/GitHub/Proyectos_TallerV_rcasalins/ProyectoTallerV/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ProyectoTallerV.map" -Wl,--gc-sections -static -L"/home/rafaelach/Documents/GitHub/Proyectos_TallerV_rcasalins/PeripheralDrivers/Debug" --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+UltrasonicEyes_STM32.elf: $(OBJS) $(USER_OBJS) /home/rafaelach/Documents/GitHub/Proyectos_STM32/UltrasonicEyes_STM32/STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "UltrasonicEyes_STM32.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/rafaelach/Documents/GitHub/Proyectos_STM32/UltrasonicEyes_STM32/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UltrasonicEyes_STM32.map" -Wl,--gc-sections -static -L"/home/rafaelach/Documents/GitHub/Proyectos_STM32/PeripheralDrivers/Debug" --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -70,19 +70,19 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-ProyectoTallerV.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "ProyectoTallerV.list"
+UltrasonicEyes_STM32.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "UltrasonicEyes_STM32.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-ProyectoTallerV.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "ProyectoTallerV.bin"
+UltrasonicEyes_STM32.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "UltrasonicEyes_STM32.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(SIZE_OUTPUT)$(OBJDUMP_LIST)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) ProyectoTallerV.elf
+	-$(RM) $(SIZE_OUTPUT)$(OBJDUMP_LIST)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) UltrasonicEyes_STM32.elf
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)

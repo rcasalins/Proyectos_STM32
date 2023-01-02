@@ -1,0 +1,30 @@
+!SESSION 2023-01-02 16:59:03.869 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/rafaelach/Documents/GitHub/Proyectos_STM32 -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-01-02 16:59:09.721
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-01-02 16:59:09.780
+!MESSAGE Log4j initialized with config file /home/rafaelach/Documents/GitHub/Proyectos_STM32/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-01-02 16:59:12.705
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-02 17:06:46.329
+!MESSAGE Indexed 'BasicConfig' (3 sources, 53 headers) in 1.61 sec: 1,964 declarations; 2,807 references; 3 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-02 17:06:47.071
+!MESSAGE Indexed 'PeripheralDrivers' (15 sources, 67 headers) in 0.722 sec: 3,182 declarations; 5,388 references; 13 unresolved inclusions; 1 syntax errors; 2,019 unresolved names (19%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-02 17:08:23.901
+!MESSAGE Indexed 'ProyectoTallerV' (3 sources, 57 headers) in 0.505 sec: 2,714 declarations; 3,378 references; 8 unresolved inclusions; 1 syntax errors; 292 unresolved names (4.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-02 17:16:39.671
+!MESSAGE Indexed 'ProyectoTallerV' (3 sources, 57 headers) in 0.403 sec: 2,714 declarations; 3,378 references; 8 unresolved inclusions; 1 syntax errors; 292 unresolved names (4.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-02 17:38:22.442
+!MESSAGE Indexed 'UltrasonicEyes_STM32' (3 sources, 67 headers) in 0.906 sec: 3,001 declarations; 4,368 references; 9 unresolved inclusions; 30 syntax errors; 671 unresolved names (8.3%)

@@ -58,5 +58,5 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Src/%.o: ../Src/%.c Src/subdir.mk
-	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I"/home/rafaelach/Documents/GitHub/Proyectos_TallerV_rcasalins/mcu_headers/CMSIS/Include" -I"/home/rafaelach/Documents/GitHub/Proyectos_TallerV_rcasalins/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/rafaelach/Documents/GitHub/Proyectos_TallerV_rcasalins/PeripheralDrivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I"/home/rafaelach/Documents/GitHub/Proyectos_STM32/mcu_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"/home/rafaelach/Documents/GitHub/Proyectos_STM32/PeripheralDrivers/Inc" -I"/home/rafaelach/Documents/GitHub/Proyectos_STM32/mcu_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@"
 
