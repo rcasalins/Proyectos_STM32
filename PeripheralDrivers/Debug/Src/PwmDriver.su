@@ -1,0 +1,11 @@
+PwmDriver.c:10:6:pwm_Config	16	static,ignoring_inline_asm
+PwmDriver.c:131:6:startPwmSignal	16	static
+PwmDriver.c:136:6:stopPwmSignal	16	static
+PwmDriver.c:141:6:enableOutput	16	static
+PwmDriver.c:170:6:disableOutput	16	static
+PwmDriver.c:205:6:setFrequency	16	static
+PwmDriver.c:218:6:updateFrequency	16	static
+PwmDriver.c:228:6:setDuttyCycle	16	static
+PwmDriver.c:263:6:updateDuttyCycle	16	static
+PwmDriver.c:272:6:enableEvent	16	static
+PwmDriver.c:302:6:disableEvent	16	static

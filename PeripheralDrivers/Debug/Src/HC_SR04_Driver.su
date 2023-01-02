@@ -1,0 +1,4 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+HC_SR04_Driver.c:19:6:HCSR04_Config	16	static,ignoring_inline_asm
+HC_SR04_Driver.c:494:6:stopHCSR04	16	static
+HC_SR04_Driver.c:529:6:startHCSR04	16	static

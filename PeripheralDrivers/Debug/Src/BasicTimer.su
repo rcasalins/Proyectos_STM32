@@ -1,0 +1,10 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+BasicTimer.c:33:6:BasicTimer_Config	16	static,ignoring_inline_asm
+BasicTimer.c:131:28:BasicTimer2_Callback	4	static,ignoring_inline_asm
+BasicTimer.c:138:28:BasicTimer3_Callback	4	static,ignoring_inline_asm
+BasicTimer.c:145:28:BasicTimer4_Callback	4	static,ignoring_inline_asm
+BasicTimer.c:152:28:BasicTimer5_Callback	4	static,ignoring_inline_asm
+BasicTimer.c:166:6:TIM2_IRQHandler	8	static
+BasicTimer.c:209:6:TIM3_IRQHandler	8	static
+BasicTimer.c:252:6:TIM4_IRQHandler	8	static
+BasicTimer.c:296:6:TIM5_IRQHandler	8	static

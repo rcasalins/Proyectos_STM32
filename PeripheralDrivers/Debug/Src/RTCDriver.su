@@ -1,0 +1,5 @@
+RTCDriver.c:13:6:RTC_Config	16	static
+RTCDriver.c:65:10:read_time	16	static
+RTCDriver.c:94:10:read_date	16	static
+RTCDriver.c:120:6:DisableRTC	16	static
+RTCDriver.c:131:6:EnableRTC	16	static

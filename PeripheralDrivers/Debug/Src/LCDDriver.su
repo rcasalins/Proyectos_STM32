@@ -1,0 +1,12 @@
+LCDDriver.c:19:6:LCD_sendCMD	24	static
+LCDDriver.c:35:6:LCD_writeData	16	static
+LCDDriver.c:50:6:LCD_sendata	24	static
+LCDDriver.c:66:6:LCD_Clear	16	static
+LCDDriver.c:72:6:LCD_Init	16	static
+LCDDriver.c:110:6:LCD_sendSTR	16	static
+LCDDriver.c:113:6:LCD_setCursor	24	static
+LCDDriver.c:214:6:delay_50	16	static,ignoring_inline_asm
+LCDDriver.c:220:6:delay_5	16	static,ignoring_inline_asm
+LCDDriver.c:226:6:delay_1	16	static,ignoring_inline_asm
+LCDDriver.c:232:6:delay_10	16	static,ignoring_inline_asm
+LCDDriver.c:238:6:LCD_ClearScreen	96	static
