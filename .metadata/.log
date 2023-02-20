@@ -28,3 +28,33 @@ Command-line arguments:  -data /home/rafaelach/Documents/GitHub/Proyectos_STM32 
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-01-02 17:38:22.442
 !MESSAGE Indexed 'UltrasonicEyes_STM32' (3 sources, 67 headers) in 0.906 sec: 3,001 declarations; 4,368 references; 9 unresolved inclusions; 30 syntax errors; 671 unresolved names (8.3%)
+!SESSION 2023-02-16 18:08:21.281 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-16 18:08:26.846
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-16 18:08:26.926
+!MESSAGE Log4j initialized with config file /home/rafaelach/Documents/GitHub/Proyectos_STM32/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-16 18:08:32.268
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-02-17 11:50:12.699 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-02-17 11:50:19.718
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-02-17 11:50:19.808
+!MESSAGE Log4j initialized with config file /home/rafaelach/Documents/GitHub/Proyectos_STM32/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-02-17 11:50:24.878
+!MESSAGE Started RMI Server, listening on port 41337

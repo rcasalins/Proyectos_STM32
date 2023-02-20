@@ -1,4 +1,4 @@
-17:39:31 **** Incremental Build of configuration Debug for project UltrasonicEyes_STM32 ****
+12:46:53 **** Incremental Build of configuration Debug for project UltrasonicEyes_STM32 ****
 make clean all 
 rm -rf  default.size.stdout  UltrasonicEyes_STM32.list  UltrasonicEyes_STM32.elf  ./Startup/startup_stm32f411retx.o  ./Src/main.o ./Src/syscalls.o ./Src/sysmem.o  ./Startup/startup_stm32f411retx.d  ./Src/main.d ./Src/syscalls.d ./Src/sysmem.d  UltrasonicEyes_STM32.bin  UltrasonicEyes_STM32.elf
  
@@ -21,5 +21,5 @@ arm-none-eabi-objcopy  -O binary  UltrasonicEyes_STM32.elf  "UltrasonicEyes_STM3
 Finished building: UltrasonicEyes_STM32.bin
  
 
-17:39:31 Build Finished. 0 errors, 0 warnings. (took 527ms)
+12:46:54 Build Finished. 0 errors, 0 warnings. (took 736ms)
 
